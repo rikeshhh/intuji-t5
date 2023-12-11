@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: calc(1174px + 30px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.content {
+  display: flex;
+  flex-direction: flex-col;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.header__content h2 {
+  color: var(--neutral-500, #121212);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header__content p {
+  color: var(--neutral-500, #121212);
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.refund__summary {
+  background: #000;
+  width: 100%;
+  text-align: center;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.refund__summary h3 {
+  color: var(--neutral-white, #fff);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+table {
+  border: 1px solid #e7e7e7;
+  width: 100%;
+  text-align: center;
+}
+table th {
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 1px solid #e7e7e7;
+}
+tr {
+  border-bottom: 1px solid #e7e7e7;
+}
+.ticket__table {
+  border: 1px solid #e7e7e7;
+}
+
+.amount__paid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  width: 189px;
+  height: 25px;
+  padding: 9px;
+}
+.total__pay {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid #e7e7e7;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+}
+.total__amount h4 {
+  color: var(--neutral-500, #121212);
+  text-align: right;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.total__amount span {
+  color: var(--neutral-500, #121212);
+  text-align: right;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-top: 8px;
+  }
+  .refund-declaration {
+    border: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .heading--refund-declaration {
+    text-align: center;
+    font: 700 12px/14.52px;
+    padding-top: 7px;
+    color: #121212;
+  }
+  /* .order-list-refund-declaration {
+    list-style: decimal;
+  } */
+  
+  .paragraph--refund-declaration {
+    color: var(--neutral-500, #121212);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px; 
+  }
+  .signature-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .signature-block-sell-parker-depositor {
+    border-top: 1px solid #121212;
+    font: 700 10px/12px;
+    font-family: Inter;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #121212;
+    padding: 8px 18px 0 18px;
+  }
+  .paddings{
+    padding:0px 15px ;
+  }
+  .records{
+    margin-top: 126px;
+  }
+  .records__details {
+    display: flex;
+    justify-content: space-around;
+  }
+  .records__details--info {
+    color: #121212;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 0.625rem;
+  }
+  .records__details--info span {
+    color: #121212;
+    font-size: 0.5rem;
+    font-weight: 700;
+    line-height: 0.625rem;
+  }
+  .records__table {
+    width: 100%;
+  }
+  .records table {
+    border-collapse: collapse;
+  }
+  .records td > div {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+    color: #121212;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 0.625rem;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.31rem;
+  }
+  .records td > div span {
+    width: 13.125rem;
+    text-align: end;
+  }
+  .records__dets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .records__dets--content {
+    display: flex;
+    gap: 0.31rem;
+    flex-direction: column;
+    color: #121212;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 0.625rem;
+}
+
+  .records__dets--heading {
+    color: #121212;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .records__dets--page {
+    color: #121212;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 0.625rem;
+  }
