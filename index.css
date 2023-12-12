@@ -62,13 +62,15 @@ body {
 table {
   border: 1px solid #e7e7e7;
   width: 100%;
-  text-align: center;
+  text-align: start;
+  padding: 16px 16px;
 }
-table th {
+ th {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   border-bottom: 1px solid #e7e7e7;
+  text-align: start;
 }
 tr {
   border-bottom: 1px solid #e7e7e7;
@@ -76,6 +78,35 @@ tr {
 .ticket__table {
   border: 1px solid #e7e7e7;
 }
+figure{
+  width: 40px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+}
+.container__supplier{
+  border: 1px solid #e7e7e7;
+  width: full;
+  justify-content: center;
+  align-items: center;
+}
+.container__supplier__content_one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.container__supplier__content_two{
+
+}
+
+.container_supplier__contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .amount__paid {
   display: flex;
@@ -229,3 +260,38 @@ tr {
     font-weight: 400;
     line-height: 0.625rem;
   }
+
+  /* sas */
+  .container__supplier{
+    padding:16px;
+  }
+  .title-desc-wrap{
+    margin-top: 20px;
+  }
+  .title-desc-wrap:nth-of-type(1){
+    margin-top: 20px;
+  }
+.container__supplier:after,
+.container__supplier:before{
+  content: '';
+  display: table;
+  clear:left;
+}
+.content-wrap{
+  float: left;
+}
+.content-wrap:nth-of-type(1){
+  width: 60%;
+}
+.content-wrap:nth-of-type(2){
+  width: 40%;
+}
+.title-desc-wrap{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.title-desc-wrap .title{
+  min-width: 150px;
+  font-weight: 600;
+}
